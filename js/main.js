@@ -7,7 +7,7 @@ for (let i = 0; i <= seeContent.length; i++) {
     console.log("i'm clicked!!");
 
   seeContent[i].style.transform = "rotateX(180deg)";
-  faqHead[i].style.color = "var(--darkgrayishblue)";
+  faqHead[i].style.color = "var(--verydarksatblue)";
   faqContent[i].style.visibility = "visible";
   faqContent[i].style.display = "block";
 
@@ -15,7 +15,7 @@ for (let i = 0; i <= seeContent.length; i++) {
     //   content.show(".faqContent");
     setTimeout(function(){
       seeContent[i].style.transform = "rotateY(180deg)";
-      faqHead[i].style.color = "var(--verydarksatblue)";
+      faqHead[i].style.color = "var(--darkgrayishblue)";
       faqContent[i].style.visibility = "hidden";
       faqContent[i].style.display = "none";
 

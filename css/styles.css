@@ -34,12 +34,17 @@ html, body {
   margin: 150px auto;
   width: 50%;
   min-width: 800px;
-  background: var(--lightgrayishblue);
-  padding: 3em;
+  background: #fff;
+  padding: 4em;
   border-radius: 20px;
 
   /* padding: 5rem 6rem; */
+
 }
+.faq-head{
+  color: var(--darkgrayishblue);
+}
+
 .illustrations{
   position: relative;
   padding: 2em .8rem;
@@ -54,14 +59,15 @@ html, body {
 .illustrations .woman-img{
   position: absolute;
   width: 90%;
-  left: -4em;
+  left: -5em;
+  overflow: hidden;
   min-width: 300px;
 }
 .illustrations .box{
   position: absolute;
   width: 95px;
   top: 10rem;
-  left: -4rem;
+  left: -5rem;
 }
 .illustrations .mob-img{
   display: none;
