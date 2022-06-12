@@ -1,5 +1,6 @@
 const faqHead = document.querySelectorAll('.faq-head');
-const seeContent = document.querySelectorAll('#see');
+// const seeContent = document.querySelectorAll('#see');
+const seeContent = document.querySelectorAll('.see');
 const faqContent = document.querySelectorAll('.faq-body');
 
 for (let i = 0; i <= seeContent.length; i++) {
